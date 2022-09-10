@@ -13,8 +13,7 @@ kmc \
   -k54 \
   -m32 \
   -b \
-  -jkmc_json/${SRA}.json \
-  fq/${SRA}_1.fastq \
+  ${SRA}_1.fastq \
   kmc_out/${SRA}.kmc \
   kmc_tmp/
 </pre>

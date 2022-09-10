@@ -32,7 +32,7 @@ Create a text file named `kmcfiles.txt` with pathnames of the sorted KMC output 
 
 <pre>
 renomad \
-  -joinp files.txt \
+  -joinp kmcfiles.txt \
   -maxp 0.05 \
   -tsv3out output.tsv
 </pre>

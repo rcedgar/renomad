@@ -18,9 +18,7 @@ kmc \
   kmc_tmp/
 </pre>
 
-The `-k` option sets the k-mer length from KMC's perspective. This is 2k from the NOMAD perspective, where k is the anchor length and the target length. 
-
-Renomad splits the KMC k-mer into two equal-length NOMAD k-mers. Thus, there is no support for a gap between the anchor and target.
+The `-k` option sets the k-mer length from KMC's perspective. This is 2k from the NOMAD perspective, where k is the anchor length and the target length. Renomad splits the KMC k-mer into two equal-length NOMAD k-mers. Thus, there is no support for a gap between the anchor and target.
 
 By default, KMC transforms k-mers into canonical form, i.e. reverse-complements the k-mer sequence if this is first in lexicographic order. This is disabled by the `-b` option, use this when reads are single-stranded e.g. RNA-seq.
 

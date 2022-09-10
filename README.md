@@ -1,6 +1,8 @@
 # RENOMAD
 Implementation of NOMAD (https://doi.org/10.1101/2022.06.24.497555)
 
+Binary file for Linux is in the `bin/` sub-directory of this repository.
+
 ### K-mer counting with KMC3
 
 First run KMC3 for each sample, here is an example which assumes `ERR5296631_1.fastq` is  present in the current directory.

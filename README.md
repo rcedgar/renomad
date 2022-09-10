@@ -18,7 +18,7 @@ kmc \
   kmc_tmp/
 </pre>
 
-By dfault, KMC transforms k-mers into canonical form, i.e. reverse-complements the k-mer sequence if this is first in lexicographic order. Use this option when reads are single-stranded e.g. RNA-seq.
+By default, KMC transforms k-mers into canonical form, i.e. reverse-complements the k-mer sequence if this is first in lexicographic order. Use this option when reads are single-stranded e.g. RNA-seq.
 
 ### Sort KMC3 output files into lexicographic order.
 

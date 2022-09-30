@@ -6,6 +6,7 @@
 void ReadStringsFromFile(const string &FileName,
   vector<string> &Strs, bool DeleteEmptyStrings);
 double CalcPvalueBrute(const vector<vector<uint> > &CountsVec);
+void SetParams_CmdLine();
 
 static uint g_HitCount = 0;
 static FILE *g_fOut = 0;
@@ -45,6 +46,8 @@ void cmd_joinp()
 	const string &OutputFileName = opt(output);
 	const string &Tsv3FileName = opt(tsv3out);
 
+	SetParams_CmdLine();
+	
 	g_fOut = CreateStdioFile(OutputFileName);
 	g_fTsv3Out = CreateStdioFile(Tsv3FileName);
 
